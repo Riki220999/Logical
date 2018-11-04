@@ -5,5 +5,5 @@ function getUniqueFromArray(arr){
   })[0] || -1;
 }
 
-var A =  [22, 25, 3, 3, 1, 2, 0, 0,100,22,25,1,2];
+var A =  [1,2,1,1];
 console.log(getUniqueFromArray(A));
