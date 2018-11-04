@@ -1,0 +1,45 @@
+<html>
+<head>
+</head>
+<body>
+  <h1>Memngurutkan Angka Dari Besar Ke Kecil</h1>
+  <form name="form1">
+         Angka Awal <input type="number" name="a" ><br>
+        
+
+         <b id="hasil_s"></b><br>
+   <input type="button" value="Konversi" onclick='konversi()'>
+   </form>
+
+
+</body>
+</html>
+      
+      <script type="text/javascript">
+         <!--
+            function konversi()
+{
+         var A = parseFloat(document.form1.a.value);
+
+         if (A ==1)
+  {
+   document.write("[1]");
+}else{
+         document.write("["+ A + ",");
+              
+         while (A != 1)
+         {
+            if (A == 2){
+               document.write( "1]");
+               break; // pemisah
+            }
+            A = A - 1;
+            document.write( A + ",");
+         }
+}
+      }   
+                 //-->
+      </script>
+      
+      
+  
