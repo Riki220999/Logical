@@ -1,0 +1,36 @@
+<html>
+<head>
+</head>
+<body>
+  <h1>Revers Kata</h1>
+  <form name="form1">
+         Kata <input type="text" id="w" ><br>
+        
+
+         <b id="hasil_s"></b><br>
+   <input type="button" value="Konversi" onclick='doReverse()'>
+   </form>
+
+
+</body>
+</html>
+      
+      <script type="text/javascript">
+
+	function doReverse(){
+		var str = document.getElementById( 'w' ).value;
+		document.getElementById("hasil_s").innerHTML =reverseString( str);
+	}
+	
+	
+	function reverseString( str ){
+		str = str.split(''); 
+		str = str.reverse();
+		str = str.join(''); 
+		return str;
+	}       
+                 
+      </script>
+      
+      
+  
